@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: 9 9 11;
+        --foreground: 244 244 245;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        color-scheme: dark;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background-color: #09090b;
+        color: #f4f4f5;
+        font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+        /* Hardware Blueprint Dot Grid Matrix */
+        background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+        background-size: 28px 28px;
+        background-attachment: fixed;
+        overflow-x: hidden;
+    }
+}
+
+/* Precision Dark-Tech Custom Scrollbars */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #09090b;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #27272a;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #22d3ee;
+}
+
+/* High-Cadence Input Focus & Text Selection */
+::selection {
+    background-color: rgba(34, 211, 238, 0.25);
+    color: #a5f3fc;
+}

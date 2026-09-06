@@ -1,0 +1,10 @@
+{
+  "/api/admin/verify/route": "app/api/admin/verify/route.js",
+  "/api/admin/orders/route": "app/api/admin/orders/route.js",
+  "/products/page": "app/products/page.js",
+  "/account/page": "app/account/page.js",
+  "/login/page": "app/login/page.js",
+  "/register/page": "app/register/page.js",
+  "/portal-admin/page": "app/portal-admin/page.js",
+  "/page": "app/page.js"
+}
